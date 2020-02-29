@@ -1,0 +1,1915 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.fontWeight600 {
+  font-weight: 600;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+}
+
+button {
+  border: unset;
+}
+
+button:focus {
+  outline: unset;
+}
+
+.tranStyle {
+  -webkit-transition: all 200ms linear 0ms;
+  transition: all 200ms linear 0ms;
+}
+
+.inner, .navBar {
+  width: 1536px;
+}
+
+@media (max-width: 1680px) {
+  .inner, .navBar {
+    width: 1336px;
+  }
+}
+
+@media (max-width: 1460px) {
+  .inner, .navBar {
+    width: 1136px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .inner, .navBar {
+    width: 960px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .inner, .navBar {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .everyDevice .inner, .terraformSphere .inner, .terraformText .inner, .intuitivePowerful .inner, .clouds .inner, .EngagingImmersiv .inner, .space .inner, .news .inner, .footer .inner {
+    padding: 0 30px;
+  }
+}
+
+.logo {
+  width: 190px;
+  height: 48px;
+}
+
+.logo .logoContainer {
+  width: 16px;
+  height: 16px;
+}
+
+.logo .logoContainer .logoBox {
+  width: 7px;
+  height: 7px;
+  background-color: white;
+}
+
+.logo .logoContainer:hover .logoRed {
+  background-color: #f25022;
+}
+
+.logo .logoContainer:hover .logoGreen {
+  background-color: #7fba00;
+}
+
+.logo .logoContainer:hover .logoBlue {
+  background-color: #00a4ef;
+}
+
+.logo .logoContainer:hover .logoOrange {
+  background-color: #ffb900;
+}
+
+.fluentdesign .navBar {
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .navBar .logo {
+    width: 60px;
+  }
+}
+
+@media (max-width: 670px) {
+  .fluentdesign .navBar .logo {
+    width: 30px;
+  }
+}
+
+.fluentdesign .navBar .siteTitle {
+  line-height: 48px;
+}
+
+.fluentdesign .navBar .siteTitle a:hover {
+  color: #0078d4;
+}
+
+.fluentdesign .navBar .systemType {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 0 120px 0 420px;
+}
+
+.fluentdesign .navBar .systemType ul {
+  padding: 0;
+}
+
+.fluentdesign .navBar .systemType li {
+  font-weight: 600;
+  line-height: 48px;
+  display: inline-block;
+}
+
+.fluentdesign .navBar .systemType li:hover a.Web {
+  color: #258ede;
+}
+
+.fluentdesign .navBar .systemType li:hover a.Windows {
+  color: #4fe5ff;
+}
+
+.fluentdesign .navBar .systemType li:hover a.iOS {
+  color: #cf8fff;
+}
+
+.fluentdesign .navBar .systemType li:hover a.Android {
+  color: #69e56e;
+}
+
+@media (max-width: 1460px) {
+  .fluentdesign .navBar .systemType {
+    padding: 0 60px 0 120px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .navBar .systemType {
+    padding: 0 0 0 120px;
+  }
+}
+
+@media (max-width: 767px) {
+  .fluentdesign .navBar .systemType {
+    display: none;
+  }
+}
+
+.fluentdesign .navBar .menuToggle {
+  width: 48px;
+  height: 48px;
+  display: none;
+  background-color: black;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.fluentdesign .navBar .menuToggle .barBox {
+  width: 24px;
+  height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fluentdesign .navBar .menuToggle .barBox span {
+  width: 24px;
+  height: 2px;
+  background-color: white;
+}
+
+.fluentdesign .navBar .menuToggle .barBox .top-bar {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.fluentdesign .navBar .menuToggle .barBox .mid-bar {
+  opacity: 1;
+}
+
+.fluentdesign .navBar .menuToggle .barBox .btm-bar {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.fluentdesign .navBar .menuToggle .barBox .active.top-bar {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  position: absolute;
+  top: 24px;
+}
+
+.fluentdesign .navBar .menuToggle .barBox .active.mid-bar {
+  opacity: 0;
+}
+
+.fluentdesign .navBar .menuToggle .barBox .active.btm-bar {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  position: absolute;
+  top: 24px;
+}
+
+.fluentdesign .navBar .menuToggle .barBox.active {
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .fluentdesign .navBar .menuToggle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.fluentdesign .navBar .mobileMenu {
+  display: none;
+  opacity: 1;
+  position: fixed;
+  top: 48px;
+  left: 0;
+  height: calc(100vh - 48px);
+  width: 100%;
+}
+
+.fluentdesign .navBar .mobileMenu .List {
+  width: 100%;
+  padding: 0;
+}
+
+.fluentdesign .navBar .mobileMenu .List .item {
+  width: 100%;
+  font-size: 20px;
+}
+
+.fluentdesign .navBar .mobileMenu .List .item a {
+  padding: 25px 30px;
+  display: block;
+}
+
+.fluentdesign .navBar .mobileMenu .List .item a:hover {
+  color: black;
+}
+
+.fluentdesign .navBar .mobileMenu .List .item a:hover.Web {
+  background-color: #258ede;
+}
+
+.fluentdesign .navBar .mobileMenu .List .item a:hover.Windows {
+  background-color: #4fe5ff;
+}
+
+.fluentdesign .navBar .mobileMenu .List .item a:hover.iOS {
+  background-color: #cf8fff;
+}
+
+.fluentdesign .navBar .mobileMenu .List .item a:hover.Android {
+  background-color: #69e56e;
+}
+
+.fluentdesign .navBar .mobileMenu.active {
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .navBar {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .fluentdesign .navBar {
+    padding: 0 10px 0 30px;
+  }
+}
+
+.fluentdesign .mainBlock {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.fluentdesign .mainBlock .intro {
+  margin: 145px 0 60px;
+}
+
+.fluentdesign .mainBlock .intro .inner {
+  margin: 0 auto;
+}
+
+.fluentdesign .mainBlock .intro .inner .content {
+  width: 410px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.fluentdesign .mainBlock .intro .inner .content .title {
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 600;
+  margin: 0 0 0 -6px;
+  color: #4fe5ff;
+}
+
+@media (max-width: 767px) {
+  .fluentdesign .mainBlock .intro .inner .content .title {
+    font-size: 48px;
+    line-height: 60px;
+  }
+}
+
+.fluentdesign .mainBlock .intro .inner .content .text {
+  margin: 100px 0 30px;
+  width: 100%;
+  max-width: 352px;
+}
+
+.fluentdesign .mainBlock .intro .inner .content .text p {
+  color: white;
+  font-weight: 600;
+  margin: 0 0 24px 0;
+}
+
+@media (max-width: 1460px) {
+  .fluentdesign .mainBlock .intro .inner .content .text {
+    max-width: 384px;
+  }
+}
+
+@media (max-width: 960px) {
+  .fluentdesign .mainBlock .intro .inner .content .text {
+    max-width: 352px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .fluentdesign .mainBlock .intro .inner .content .text {
+    margin: 60px 0 30px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .fluentdesign .mainBlock .intro .inner .content {
+    width: 50%;
+  }
+}
+
+@media (max-width: 960px) {
+  .fluentdesign .mainBlock .intro .inner .content {
+    width: 60%;
+  }
+}
+
+@media (max-width: 670px) {
+  .fluentdesign .mainBlock .intro .inner .content {
+    width: 100%;
+  }
+}
+
+.fluentdesign .mainBlock .intro .inner .media {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fluentdesign .mainBlock .intro .inner .media .leftline {
+  position: absolute;
+  top: -15px;
+  right: 180px;
+  pointer-events: none;
+}
+
+@media (max-width: 1680px) {
+  .fluentdesign .mainBlock .intro .inner .media .leftline {
+    top: -40px;
+    right: 36px;
+  }
+}
+
+@media (max-width: 1460px) {
+  .fluentdesign .mainBlock .intro .inner .media .leftline {
+    top: 15px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .fluentdesign .mainBlock .intro .inner .media .leftline {
+    display: none;
+  }
+}
+
+.fluentdesign .mainBlock .intro .inner .media .rightline {
+  position: absolute;
+  bottom: 155px;
+  left: 180px;
+  pointer-events: none;
+}
+
+@media (max-width: 1680px) {
+  .fluentdesign .mainBlock .intro .inner .media .rightline {
+    bottom: 160px;
+    left: 30px;
+  }
+}
+
+@media (max-width: 1680px) {
+  .fluentdesign .mainBlock .intro .inner .media .rightline {
+    bottom: 120px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .fluentdesign .mainBlock .intro .inner .media .rightline {
+    display: none;
+  }
+}
+
+.fluentdesign .mainBlock .intro .inner .media img {
+  max-width: 100%;
+}
+
+@media (max-width: 1280px) {
+  .fluentdesign .mainBlock .intro .inner .media {
+    width: 50%;
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 960px) {
+  .fluentdesign .mainBlock .intro .inner .media {
+    width: 40%;
+    padding: 0 0 0 30px;
+  }
+}
+
+@media (max-width: 670px) {
+  .fluentdesign .mainBlock .intro .inner .media {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .intro .inner {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 960px) {
+  .fluentdesign .mainBlock .intro .inner {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 670px) {
+  .fluentdesign .mainBlock .intro {
+    margin: 0 0 30px;
+  }
+}
+
+.fluentdesign .mainBlock .systemCard {
+  position: relative;
+  width: 100%;
+}
+
+.fluentdesign .mainBlock .systemCard .inner {
+  margin: auto;
+}
+
+.fluentdesign .mainBlock .systemCard .inner .grid {
+  width: 100%;
+  position: relative;
+}
+
+.fluentdesign .mainBlock .systemCard .inner .grid .card {
+  width: 25%;
+  height: 384px;
+  border: unset;
+  position: relative;
+  z-index: 2;
+}
+
+.fluentdesign .mainBlock .systemCard .inner .grid .card a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+}
+
+.fluentdesign .mainBlock .systemCard .inner .grid .card a .icon {
+  min-height: 96px;
+  text-align: left;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 26px;
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .systemCard .inner .grid .card a .icon {
+    padding: 30px 30px 16px;
+  }
+}
+
+.fluentdesign .mainBlock .systemCard .inner .grid .card a.WebCard {
+  background-color: #258ede;
+}
+
+.fluentdesign .mainBlock .systemCard .inner .grid .card a.WebCard:hover {
+  background-color: #0c75c5;
+}
+
+.fluentdesign .mainBlock .systemCard .inner .grid .card a.WindowsCard {
+  background-color: #4fe5ff;
+}
+
+.fluentdesign .mainBlock .systemCard .inner .grid .card a.WindowsCard:hover {
+  background-color: #36cce6;
+}
+
+.fluentdesign .mainBlock .systemCard .inner .grid .card a.iOSCard {
+  background-color: #cf8fff;
+}
+
+.fluentdesign .mainBlock .systemCard .inner .grid .card a.iOSCard:hover {
+  background-color: #b676e6;
+}
+
+.fluentdesign .mainBlock .systemCard .inner .grid .card a.AndroidCard {
+  background-color: #69e56e;
+}
+
+.fluentdesign .mainBlock .systemCard .inner .grid .card a.AndroidCard:hover {
+  background-color: #50cc55;
+}
+
+.fluentdesign .mainBlock .systemCard .inner .grid .card .content {
+  height: 100px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 0 26px;
+}
+
+.fluentdesign .mainBlock .systemCard .inner .grid .card .content .title {
+  font-size: 32px;
+  letter-spacing: -0.03rem;
+  line-height: 40px;
+  margin: 0 0 26px;
+}
+
+.fluentdesign .mainBlock .systemCard .inner .grid .card .content .text {
+  line-height: 20px;
+}
+
+@media (max-width: 1460px) {
+  .fluentdesign .mainBlock .systemCard .inner .grid .card .content {
+    height: 180px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .systemCard .inner .grid .card .content {
+    height: auto;
+    padding: 0 30px;
+  }
+}
+
+.fluentdesign .mainBlock .systemCard .inner .grid .card .action {
+  height: 48px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 0 26px 10px;
+  letter-spacing: 0.15rem;
+}
+
+.fluentdesign .mainBlock .systemCard .inner .grid .card .action img {
+  margin: 0 16px 0 0;
+}
+
+@media (max-width: 1280px) {
+  .fluentdesign .mainBlock .systemCard .inner .grid .card .action {
+    padding: 0 30px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .systemCard .inner .grid .card {
+    width: 50%;
+    height: 320px;
+  }
+}
+
+@media (max-width: 767px) {
+  .fluentdesign .mainBlock .systemCard .inner .grid .card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .fluentdesign .mainBlock .systemCard .inner .grid .card {
+    height: unset;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .systemCard .inner .grid {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 500px) {
+  .fluentdesign .mainBlock .systemCard .inner {
+    width: auto;
+  }
+}
+
+.fluentdesign .mainBlock .systemCard::before {
+  content: "";
+  width: 50vw;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #2280c8;
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .systemCard::before {
+    display: none;
+  }
+}
+
+.fluentdesign .mainBlock .systemCard::after {
+  content: "";
+  width: 50vw;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  background-color: #5fcf63;
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .systemCard::after {
+    display: none;
+  }
+}
+
+.fluentdesign .mainBlock .everyDevice {
+  width: 100%;
+  min-height: 768px;
+  background: url("../img/msft-verge-fluent.jpg") 50% center/cover no-repeat fixed #cccccc;
+}
+
+.fluentdesign .mainBlock .everyDevice .inner {
+  margin: auto;
+  color: black;
+}
+
+.fluentdesign .mainBlock .everyDevice .inner .title {
+  padding: 10px 20px 0 0;
+}
+
+@media (max-width: 1460px) {
+  .fluentdesign .mainBlock .everyDevice .inner .title {
+    padding: 10px 0 0 16px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .fluentdesign .mainBlock .everyDevice .inner .title {
+    padding: 20px 0 60px 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .everyDevice .inner .title {
+    padding: 29px 0 40px 0;
+  }
+}
+
+.fluentdesign .mainBlock .everyDevice .inner .title .heading {
+  font-size: 128px;
+  line-height: 150px;
+}
+
+@media (max-width: 1460px) {
+  .fluentdesign .mainBlock .everyDevice .inner .title .heading {
+    font-size: 96px;
+    line-height: 120px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .everyDevice .inner .title .heading {
+    font-size: 86px;
+    line-height: 90px;
+  }
+}
+
+@media (max-width: 670px) {
+  .fluentdesign .mainBlock .everyDevice .inner .title .heading {
+    font-size: 64px;
+    line-height: 70px;
+  }
+}
+
+@media (max-width: 500px) {
+  .fluentdesign .mainBlock .everyDevice .inner .title .heading {
+    font-size: 48px;
+    line-height: 60px;
+  }
+}
+
+.fluentdesign .mainBlock .everyDevice .inner .content {
+  margin: 60px 0 0;
+}
+
+.fluentdesign .mainBlock .everyDevice .inner .content .contentBlock {
+  width: 100%;
+  max-width: 384px;
+  padding: 0 16px 0 24px;
+  line-height: 24px;
+}
+
+@media (max-width: 1280px) {
+  .fluentdesign .mainBlock .everyDevice .inner .content .contentBlock {
+    margin: 0px;
+    padding: 0px 5px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .everyDevice .inner .content .contentBlock {
+    padding: 0px 0px 0px 4px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .fluentdesign .mainBlock .everyDevice .inner .content {
+    margin: 0;
+  }
+}
+
+@media (max-width: 1280px) {
+  .fluentdesign .mainBlock .everyDevice {
+    min-height: 668px;
+  }
+}
+
+@media (max-width: 960px) {
+  .fluentdesign .mainBlock .everyDevice {
+    background-attachment: scroll;
+  }
+}
+
+@media (max-width: 670px) {
+  .fluentdesign .mainBlock .everyDevice {
+    min-height: 768px;
+  }
+}
+
+.fluentdesign .mainBlock .terraformSphere {
+  position: relative;
+  width: 100%;
+  background-color: #191919;
+}
+
+.fluentdesign .mainBlock .terraformSphere .inner {
+  margin: auto;
+  position: relative;
+}
+
+.fluentdesign .mainBlock .terraformSphere .inner .rect {
+  position: absolute;
+  top: -200px;
+  right: 130px;
+  pointer-events: none;
+  z-index: 4;
+}
+
+@media (max-width: 1680px) {
+  .fluentdesign .mainBlock .terraformSphere .inner .rect {
+    right: 30px;
+  }
+}
+
+@media (max-width: 1460px) {
+  .fluentdesign .mainBlock .terraformSphere .inner .rect {
+    top: -200px;
+  }
+}
+
+@media (max-width: 767px) {
+  .fluentdesign .mainBlock .terraformSphere .inner .rect {
+    top: -300px;
+    right: 100px;
+  }
+}
+
+@media (max-width: 670px) {
+  .fluentdesign .mainBlock .terraformSphere .inner .rect {
+    display: none;
+  }
+}
+
+.fluentdesign .mainBlock .terraformSphere .inner .line {
+  position: absolute;
+  top: 570px;
+  left: 190px;
+  pointer-events: none;
+}
+
+@media (max-width: 670px) {
+  .fluentdesign .mainBlock .terraformSphere .inner .line {
+    left: 90vw;
+  }
+}
+
+.fluentdesign .mainBlock .terraformSphere .inner .sphere {
+  padding: 60px 30px;
+}
+
+.fluentdesign .mainBlock .terraformSphere .inner .sphere img {
+  max-width: 100%;
+}
+
+.fluentdesign .mainBlock .terraformText {
+  width: 100%;
+  background-color: #191919;
+}
+
+.fluentdesign .mainBlock .terraformText .inner .content {
+  width: 384px;
+  margin: 0 0 50px;
+  padding: 0 16px;
+  color: white;
+  line-height: 24px;
+}
+
+@media (max-width: 960px) {
+  .fluentdesign .mainBlock .terraformText .inner .content {
+    padding: 0;
+  }
+}
+
+@media (max-width: 670px) {
+  .fluentdesign .mainBlock .terraformText .inner {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
+.fluentdesign .mainBlock .intuitivePowerful {
+  width: 100%;
+  background-color: #191919;
+  position: relative;
+}
+
+.fluentdesign .mainBlock .intuitivePowerful .title {
+  position: absolute;
+  bottom: 80px;
+  left: 0px;
+  z-index: 4;
+  width: 100%;
+}
+
+.fluentdesign .mainBlock .intuitivePowerful .title .inner {
+  margin: auto;
+}
+
+.fluentdesign .mainBlock .intuitivePowerful .title .inner .text {
+  color: #191919;
+  font-size: 128px;
+  line-height: 144px;
+  margin: 0 0 0 26px;
+}
+
+@media (max-width: 1680px) {
+  .fluentdesign .mainBlock .intuitivePowerful .title .inner .text {
+    font-size: 96px;
+    line-height: 128px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .fluentdesign .mainBlock .intuitivePowerful .title .inner .text {
+    line-height: 104px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .intuitivePowerful .title .inner .text {
+    font-size: 86px;
+    line-height: 90px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 670px) {
+  .fluentdesign .mainBlock .intuitivePowerful .title .inner .text {
+    font-size: 64px;
+    line-height: 70px;
+  }
+}
+
+@media (max-width: 500px) {
+  .fluentdesign .mainBlock .intuitivePowerful .title .inner .text {
+    font-size: 48px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .intuitivePowerful .title {
+    bottom: 60px;
+  }
+}
+
+.fluentdesign .mainBlock .intuitivePowerful .media {
+  width: 100%;
+  overflow: hidden;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.fluentdesign .mainBlock .clouds {
+  position: relative;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  min-height: 948px;
+  background: url(../img/clouds.jpg) 50% center/cover no-repeat fixed black;
+}
+
+.fluentdesign .mainBlock .clouds .inner {
+  position: relative;
+  height: 100%;
+}
+
+.fluentdesign .mainBlock .clouds .inner .planes {
+  position: relative;
+  top: -362px;
+  right: -998px;
+  width: 100%;
+  overflow: hidden;
+  height: 565px;
+}
+
+.fluentdesign .mainBlock .clouds .inner .planes .solidPlane img {
+  position: absolute;
+  top: -30px;
+  left: 30px;
+  pointer-events: none;
+}
+
+.fluentdesign .mainBlock .clouds .inner .planes .outlinePlane img {
+  position: absolute;
+  top: 120px;
+  left: 30px;
+  z-index: -1;
+  overflow: hidden;
+}
+
+@media (max-width: 1680px) {
+  .fluentdesign .mainBlock .clouds .inner .planes {
+    right: -800px;
+  }
+}
+
+@media (max-width: 1460px) {
+  .fluentdesign .mainBlock .clouds .inner .planes {
+    display: none;
+  }
+}
+
+.fluentdesign .mainBlock .clouds .inner .deHeader {
+  position: absolute;
+  top: -100px;
+  left: 0px;
+  font-size: 395px;
+  line-height: 1;
+  color: black;
+}
+
+@media (max-width: 1680px) {
+  .fluentdesign .mainBlock .clouds .inner .deHeader {
+    top: -40px;
+    font-size: 295px;
+  }
+}
+
+@media (max-width: 1460px) {
+  .fluentdesign .mainBlock .clouds .inner .deHeader {
+    top: -20px;
+    left: 0px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .fluentdesign .mainBlock .clouds .inner .deHeader {
+    font-size: 228px;
+    top: 40px;
+    left: 14px;
+  }
+}
+
+@media (max-width: 670px) {
+  .fluentdesign .mainBlock .clouds .inner .deHeader {
+    font-size: 168px;
+  }
+}
+
+@media (max-width: 500px) {
+  .fluentdesign .mainBlock .clouds .inner .deHeader {
+    font-size: 128px;
+  }
+}
+
+.fluentdesign .mainBlock .clouds .inner .signHeader {
+  position: absolute;
+  top: 140px;
+  right: -30px;
+  font-size: 395px;
+  line-height: 1;
+  color: black;
+}
+
+@media (max-width: 1680px) {
+  .fluentdesign .mainBlock .clouds .inner .signHeader {
+    top: 120px;
+    right: -30px;
+    font-size: 295px;
+  }
+}
+
+@media (max-width: 1460px) {
+  .fluentdesign .mainBlock .clouds .inner .signHeader {
+    top: 180px;
+    right: -30px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .fluentdesign .mainBlock .clouds .inner .signHeader {
+    font-size: 228px;
+    top: 220px;
+    right: 10px;
+  }
+}
+
+@media (max-width: 670px) {
+  .fluentdesign .mainBlock .clouds .inner .signHeader {
+    font-size: 168px;
+  }
+}
+
+@media (max-width: 500px) {
+  .fluentdesign .mainBlock .clouds .inner .signHeader {
+    font-size: 128px;
+  }
+}
+
+.fluentdesign .mainBlock .clouds .inner .line {
+  position: absolute;
+  top: 550px;
+  left: 370px;
+  pointer-events: none;
+}
+
+@media (max-width: 1280px) {
+  .fluentdesign .mainBlock .clouds .inner .line {
+    display: none;
+  }
+}
+
+@media (max-width: 1280px) {
+  .fluentdesign .mainBlock .clouds {
+    min-height: 668px;
+  }
+}
+
+@media (max-width: 960px) {
+  .fluentdesign .mainBlock .clouds {
+    background-attachment: scroll;
+  }
+}
+
+.fluentdesign .mainBlock .EngagingImmersive {
+  width: 100%;
+  background-color: #cccccc;
+  min-height: 820px;
+  position: relative;
+}
+
+.fluentdesign .mainBlock .EngagingImmersive .inner {
+  position: relative;
+}
+
+.fluentdesign .mainBlock .EngagingImmersive .inner .title {
+  width: 100%;
+  padding: 140px 40px 0 8px;
+}
+
+.fluentdesign .mainBlock .EngagingImmersive .inner .title .heading {
+  font-size: 128px;
+  line-height: 150px;
+}
+
+@media (max-width: 1280px) {
+  .fluentdesign .mainBlock .EngagingImmersive .inner .title .heading {
+    font-size: 96px;
+    line-height: 104px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .EngagingImmersive .inner .title .heading {
+    font-size: 86px;
+    line-height: 90px;
+  }
+}
+
+@media (max-width: 670px) {
+  .fluentdesign .mainBlock .EngagingImmersive .inner .title .heading {
+    font-size: 64px;
+    line-height: 70px;
+  }
+}
+
+@media (max-width: 500px) {
+  .fluentdesign .mainBlock .EngagingImmersive .inner .title .heading {
+    font-size: 48px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 1460px) {
+  .fluentdesign .mainBlock .EngagingImmersive .inner .title {
+    padding: 60px 40px 0 8px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .fluentdesign .mainBlock .EngagingImmersive .inner .title {
+    padding: 29px 0 0;
+  }
+}
+
+.fluentdesign .mainBlock .EngagingImmersive .inner .content {
+  width: 100%;
+  margin: 60px 0 0;
+}
+
+.fluentdesign .mainBlock .EngagingImmersive .inner .content .contentBlock {
+  max-width: 384px;
+  padding: 0 16px;
+  color: black;
+  line-height: 24px;
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .EngagingImmersive .inner .content .contentBlock {
+    padding: 0px 0px 0px 4px;
+  }
+}
+
+@media (max-width: 670px) {
+  .fluentdesign .mainBlock .EngagingImmersive .inner .content {
+    margin: 40px 0px 0px;
+  }
+}
+
+@media (max-width: 960px) {
+  .fluentdesign .mainBlock .EngagingImmersive .inner {
+    padding: 0 30px 40px;
+  }
+}
+
+.fluentdesign .mainBlock .EngagingImmersive .media {
+  position: absolute;
+  top: 200px;
+  right: 0;
+}
+
+.fluentdesign .mainBlock .EngagingImmersive .media img {
+  max-width: 1000px;
+}
+
+@media (max-width: 1940px) {
+  .fluentdesign .mainBlock .EngagingImmersive .media img {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 1680px) {
+  .fluentdesign .mainBlock .EngagingImmersive .media img {
+    max-width: 50vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .EngagingImmersive .media img {
+    max-width: 70vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .fluentdesign .mainBlock .EngagingImmersive .media img {
+    max-width: 60vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .EngagingImmersive .media {
+    right: -20vw;
+  }
+}
+
+@media (max-width: 670px) {
+  .fluentdesign .mainBlock .EngagingImmersive .media {
+    display: none;
+  }
+}
+
+@media (max-width: 1280px) {
+  .fluentdesign .mainBlock .EngagingImmersive {
+    min-height: 668px;
+  }
+}
+
+@media (max-width: 670px) {
+  .fluentdesign .mainBlock .EngagingImmersive {
+    min-height: 468px;
+  }
+}
+
+.fluentdesign .mainBlock .space {
+  width: 100%;
+  min-height: 768px;
+  background: url(../img/space.jpg) 50% center/cover no-repeat fixed black;
+}
+
+.fluentdesign .mainBlock .space .inner {
+  position: relative;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.fluentdesign .mainBlock .space .inner .fluent {
+  position: absolute;
+  top: -95px;
+  left: 340px;
+}
+
+@media (max-width: 500px) {
+  .fluentdesign .mainBlock .space .inner .fluent img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1460px) {
+  .fluentdesign .mainBlock .space .inner .fluent {
+    top: -75px;
+    left: 50%;
+    margin: 0px 0px 0px -215px;
+  }
+}
+
+@media (max-width: 500px) {
+  .fluentdesign .mainBlock .space .inner .fluent {
+    width: 100%;
+    max-width: 50%;
+    left: 30%;
+    margin: 0px;
+  }
+}
+
+.fluentdesign .mainBlock .space .inner .line {
+  position: absolute;
+  top: 185px;
+  left: 165px;
+}
+
+@media (max-width: 1460px) {
+  .fluentdesign .mainBlock .space .inner .line {
+    top: 40vh;
+    left: 65px;
+  }
+}
+
+@media (max-width: 500px) {
+  .fluentdesign .mainBlock .space .inner .line {
+    display: none;
+  }
+}
+
+.fluentdesign .mainBlock .space .inner .whiteRect {
+  position: absolute;
+  top: -125px;
+  left: 620px;
+}
+
+@media (max-width: 1460px) {
+  .fluentdesign .mainBlock .space .inner .whiteRect {
+    top: 80px;
+    left: auto;
+    right: 60px;
+  }
+}
+
+@media (max-width: 500px) {
+  .fluentdesign .mainBlock .space .inner .whiteRect {
+    display: none;
+  }
+}
+
+.fluentdesign .mainBlock .space .inner .whitePlane {
+  position: absolute;
+  top: 530px;
+  right: 85px;
+}
+
+@media (max-width: 500px) {
+  .fluentdesign .mainBlock .space .inner .whitePlane {
+    display: none;
+  }
+}
+
+.fluentdesign .mainBlock .space .inner .lilaRect {
+  position: absolute;
+  top: 270px;
+  right: 220px;
+  z-index: 8;
+}
+
+@media (max-width: 1460px) {
+  .fluentdesign .mainBlock .space .inner .lilaRect {
+    top: 370px;
+  }
+}
+
+@media (max-width: 767px) {
+  .fluentdesign .mainBlock .space .inner .lilaRect {
+    display: none;
+  }
+}
+
+@media (max-width: 1280px) {
+  .fluentdesign .mainBlock .space {
+    min-height: 668px;
+  }
+}
+
+@media (max-width: 960px) {
+  .fluentdesign .mainBlock .space {
+    background-attachment: scroll;
+  }
+}
+
+@media (max-width: 500px) {
+  .fluentdesign .mainBlock .space {
+    min-height: 568px;
+  }
+}
+
+.fluentdesign .mainBlock .mediaBlock {
+  position: relative;
+  width: 100%;
+  margin: 0 0 160px;
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner {
+  position: relative;
+  z-index: 2;
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner .grid {
+  width: 100%;
+  position: relative;
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner .grid .item {
+  position: relative;
+  width: 25%;
+  height: 384px;
+  -webkit-transition: all 200ms linear 0ms;
+  transition: all 200ms linear 0ms;
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner .grid .item.item1 {
+  background-color: black;
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner .grid .item.item1:hover {
+  background-color: white;
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner .grid .item.item1:hover a {
+  color: black;
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner .grid .item.item2 {
+  background-color: #393939;
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner .grid .item.item2:hover {
+  background-color: white;
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner .grid .item.item2:hover a {
+  color: black;
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner .grid .item.item3 {
+  background-color: #767676;
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner .grid .item.item3 a {
+  color: black;
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner .grid .item.item3:hover {
+  background-color: white;
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner .grid .item.item4 {
+  background-color: #cccccc;
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner .grid .item.item4 a {
+  color: black;
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner .grid .item.item4:hover {
+  background-color: white;
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner .grid .item a {
+  width: 100%;
+  height: 100%;
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner .grid .item a .content {
+  width: 100%;
+  padding: 16px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin: 2px 0 0;
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner .grid .item a .content p {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+@media (max-width: 1280px) {
+  .fluentdesign .mainBlock .mediaBlock .inner .grid .item a .content p {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .mediaBlock .inner .grid .item a .content {
+    padding: 19px 28px;
+  }
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner .grid .item a .source {
+  width: 100%;
+  padding: 16px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  line-height: 1;
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner .grid .item a .source .icon {
+  width: 24px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  margin: 0 16px 0 0;
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner .grid .item a .source .icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.fluentdesign .mainBlock .mediaBlock .inner .grid .item a .source .title {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  font-size: 14px;
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .mediaBlock .inner .grid .item a .source {
+    padding: 0 30px 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .mediaBlock .inner .grid .item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .fluentdesign .mainBlock .mediaBlock .inner .grid .item {
+    width: 100%;
+    height: auto;
+    min-height: 260px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .mediaBlock .inner .grid {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .mediaBlock {
+    margin: 0 0 60px;
+  }
+}
+
+@media (max-width: 960px) {
+  .fluentdesign .mainBlock .mediaBlock {
+    margin: 0;
+  }
+}
+
+.fluentdesign .mainBlock .news {
+  width: 100%;
+}
+
+.fluentdesign .mainBlock .news .inner .newsList {
+  width: 100%;
+}
+
+.fluentdesign .mainBlock .news .inner .newsList .newsItem {
+  width: 100%;
+  padding: 0 0 200px;
+}
+
+.fluentdesign .mainBlock .news .inner .newsList .newsItem .title {
+  width: 575px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  font-size: 32px;
+  color: white;
+  padding: 0 0 0 16px;
+}
+
+@media (max-width: 1680px) {
+  .fluentdesign .mainBlock .news .inner .newsList .newsItem .title {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .news .inner .newsList .newsItem .title {
+    margin: 0px 30px 30px;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 960px) {
+  .fluentdesign .mainBlock .news .inner .newsList .newsItem .title {
+    width: 100%;
+    margin: 30px 0px;
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+
+.fluentdesign .mainBlock .news .inner .newsList .newsItem .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 0 330px 35px 208px;
+}
+
+.fluentdesign .mainBlock .news .inner .newsList .newsItem .content .text {
+  width: 100%;
+}
+
+.fluentdesign .mainBlock .news .inner .newsList .newsItem .content .text p {
+  color: white;
+  line-height: 24px;
+}
+
+.fluentdesign .mainBlock .news .inner .newsList .newsItem .content .action {
+  width: 100%;
+  margin: 70px 0 0;
+  font-weight: 400;
+}
+
+.fluentdesign .mainBlock .news .inner .newsList .newsItem .content .action a {
+  color: white;
+}
+
+.fluentdesign .mainBlock .news .inner .newsList .newsItem .content .action a img {
+  margin: 0 16px 0 0;
+}
+
+.fluentdesign .mainBlock .news .inner .newsList .newsItem .content .action a span {
+  letter-spacing: .15rem;
+  line-height: 1;
+}
+
+@media (max-width: 960px) {
+  .fluentdesign .mainBlock .news .inner .newsList .newsItem .content .action a span {
+    font-size: 12px;
+  }
+}
+
+.fluentdesign .mainBlock .news .inner .newsList .newsItem .content .action a:hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 960px) {
+  .fluentdesign .mainBlock .news .inner .newsList .newsItem .content .action {
+    margin: 30px 0px 0px;
+  }
+}
+
+@media (max-width: 1680px) {
+  .fluentdesign .mainBlock .news .inner .newsList .newsItem .content {
+    width: 50%;
+    padding: 0px 16px 35px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .mainBlock .news .inner .newsList .newsItem .content {
+    padding: 0px 30px 35px;
+  }
+}
+
+@media (max-width: 960px) {
+  .fluentdesign .mainBlock .news .inner .newsList .newsItem .content {
+    width: 100%;
+    padding: 0px 0px 35px;
+  }
+}
+
+@media (max-width: 960px) {
+  .fluentdesign .mainBlock .news .inner .newsList .newsItem {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0;
+  }
+}
+
+.fluentdesign .footer {
+  width: 100%;
+  height: 48px;
+}
+
+@media (max-width: 1280px) {
+  .fluentdesign .footer .inner .logo {
+    width: 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .footer .inner .logo {
+    width: 80px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+  }
+}
+
+.fluentdesign .footer .inner .navigation {
+  height: 48px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 0 100px 0 0;
+}
+
+.fluentdesign .footer .inner .navigation .navigationList {
+  width: 100%;
+  padding: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.fluentdesign .footer .inner .navigation .navigationList .navigationListItem {
+  width: auto;
+  color: white;
+  font-size: 12px;
+  line-height: 48px;
+  font-weight: 400;
+}
+
+.fluentdesign .footer .inner .navigation .navigationList .navigationListItem a {
+  position: relative;
+  color: white;
+  -webkit-transition: all 200ms linear 0ms;
+  transition: all 200ms linear 0ms;
+}
+
+.fluentdesign .footer .inner .navigation .navigationList .navigationListItem a::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -6px;
+  width: 100%;
+  opacity: 0;
+  height: 1px;
+  background-color: white;
+  -webkit-transition: all 200ms linear 0ms;
+  transition: all 200ms linear 0ms;
+}
+
+.fluentdesign .footer .inner .navigation .navigationList .navigationListItem a:hover {
+  opacity: 0.6;
+}
+
+.fluentdesign .footer .inner .navigation .navigationList .navigationListItem a:hover::after {
+  opacity: 1;
+  bottom: -2px;
+}
+
+@media (max-width: 670px) {
+  .fluentdesign .footer .inner .navigation .navigationList .navigationListItem {
+    line-height: 30px;
+    margin: 0 20px 0 0;
+  }
+}
+
+@media (max-width: 670px) {
+  .fluentdesign .footer .inner .navigation .navigationList {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .footer .inner .navigation {
+    width: 100%;
+    height: auto;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    padding: 0;
+  }
+}
+
+.fluentdesign .footer .inner .social {
+  height: 48px;
+  z-index: 5;
+}
+
+.fluentdesign .footer .inner .social a {
+  width: 48px;
+  height: 48px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.fluentdesign .footer .inner .social a svg {
+  width: 20px;
+}
+
+.fluentdesign .footer .inner .social a:hover .linkedin path {
+  fill: #0077b5;
+}
+
+.fluentdesign .footer .inner .social a:hover .dribbble path {
+  fill: #ea4c89;
+}
+
+.fluentdesign .footer .inner .social a:hover .twitter path {
+  fill: #38a1f3;
+}
+
+.fluentdesign .footer .inner .social a:hover .MicrosoftDesign path {
+  fill: #00ab6c;
+}
+
+.fluentdesign .footer .inner .social a:hover .facebook path {
+  fill: #3b5998;
+}
+
+@media (max-width: 500px) {
+  .fluentdesign .footer .inner .social a {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .footer .inner .social {
+    width: 50%;
+    top: 0px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    position: absolute;
+    right: 30px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .fluentdesign .footer .inner .social {
+    position: relative;
+    width: 100%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    right: auto;
+    left: auto;
+    top: auto;
+    margin: 16px 0px 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .footer .inner {
+    position: relative;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 670px) {
+  .fluentdesign .footer .inner {
+    padding: 10px 30px 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fluentdesign .footer {
+    height: auto;
+    padding: 0 0 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .fluentdesign .footer {
+    display: block;
+  }
+}
+/*# sourceMappingURL=style.css.map */
